@@ -1,0 +1,20 @@
+.FirstSec{
+    color: red;
+}
+
+#FirsTitle {
+    text-decoration: underline;
+}
+
+.SecondSec{
+    color: green;
+}
+
+.SecondSec h2{
+    background-color: #90ee9060;
+}
+
+ul {
+    list-style-type: square;
+}
+
