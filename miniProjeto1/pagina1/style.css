@@ -1,0 +1,63 @@
+#titles {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    color: #111169;
+}
+
+#textsStyles h2{
+    color: #111169;
+}
+
+#text1{
+    color: #3333c0;
+}
+
+#text2{
+    color: green;
+}
+
+#link1{
+    color: red;
+}
+
+#link2{
+    color: purple;
+}
+
+#ul1 {
+    list-style-type: square;
+    color: orange;
+}
+
+#ul2 {
+    list-style-type: circle;
+    color: #a12f2f;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+tr, th, td {
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+tr:nth-child(odd) { 
+    background-color: #ebebeb; 
+}
+
+#textCenter {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}

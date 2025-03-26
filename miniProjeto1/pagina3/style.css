@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerInfo {
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#btnTeste {
+    padding: 15px 20px;
+    background-color: rgb(56, 140, 250);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    color: #8b6cfc;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+td, tr, th{
+    border: 1px solid black;
+    min-width: 300px;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 20px;
+}
+
+#noneCEll {
+   border-top: hidden;
+   border-left: hidden;
+}
+
+#cellBas{
+    background-color: #84b9ff;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cellPad{
+    background-color: #4488e0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cellAvan{
+    background-color: #8b6cfc;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+tr td:nth-child(1) {
+    text-align: left;
+}
+
+#btnOP1{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #84b9ff;
+    cursor: pointer;
+}
+
+#btnOP2{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #4488e0;
+    cursor: pointer;
+}
+
+#btnOP3{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #8b6cfc;
+    cursor: pointer;
+}
