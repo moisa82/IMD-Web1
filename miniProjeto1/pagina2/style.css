@@ -1,0 +1,42 @@
+#chessTable {
+    border: 3px solid black;
+    width: fit-content;
+   
+}
+
+.line {
+    display: flex;
+}
+
+.oddLine .square:nth-child(odd) {
+    background-color: #000000c2;
+}
+
+.oddLine .square:nth-child(even) {
+    background-color: #dadada;
+}
+
+.evenLine .square:nth-child(even) {
+    background-color: #000000c2;
+}
+
+.evenLine .square:nth-child(odd) {
+    background-color: #dadada;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square i{
+    font-size: 30px;
+}
+
+.square i:hover {
+    color: #ffffff;
+}
